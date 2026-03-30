@@ -12,10 +12,10 @@ public class LL_coll {
         ls.removeFirst();
         ls.removeLast();
         ls.size();
-        System.out.println(ls);
+        // System.out.print(ls);
         
         for(int i = 0; i < ls.size(); i++){
-            System.out.println(ls.get(i) + " -> ");
+            System.out.print(ls.get(i) + " -> ");
         }
     }
 }
